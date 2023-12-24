@@ -9,7 +9,7 @@ function App() {
   return (
     <div>
       <h2 className='text-xl font-bold m-6'>Let's get started!</h2>
-      <Card className='bg-violet-100 max-w-5xl p-6 rounded-xl mx-auto'>
+      <Card className='bg-[#d0efff] max-w-5xl p-6 rounded-xl mx-auto'>
         <Expenses items={expenseList} />
       </Card>
     </div>
