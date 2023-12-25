@@ -1,12 +1,11 @@
 import React from 'react'
 import ExpenseForm from './ExpenseForm'
-import { expenseList } from '../../constants/constants'
 
 const NewExpense = (props) => {
   const saveExpenseDataHandler = (enteredExpenseData) => {
     const expenseData = {
       ...enteredExpenseData,
-      id: (expenseList.length + 1).toString()
+      id: (props.expenses.length + 1).toString()
     }
     props.onAddExpense(expenseData)
   } 
