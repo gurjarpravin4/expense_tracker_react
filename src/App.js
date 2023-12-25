@@ -2,7 +2,6 @@ import './App.css';
 import './index.css';
 import { expenseList } from './constants/constants';
 import Expenses from './components/expenses/Expenses';
-import Card from './components/UI/Card';
 import NewExpense from './components/new_expense/NewExpense';
 
 function App() {
