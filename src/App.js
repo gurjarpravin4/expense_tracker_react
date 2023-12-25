@@ -11,10 +11,8 @@ function App() {
   }
   return (
     <div className='font-lato'>
-      <NewExpense onAddExpense = {addExpenseHandler} />
-      <Card className='bg-[#d0efff] max-w-5xl p-6 rounded-xl mx-auto'>
-        <Expenses items={expenseList} />
-      </Card>
+      <NewExpense onAddExpense={addExpenseHandler} />
+      <Expenses items={expenseList} />
     </div>
   );
 }
